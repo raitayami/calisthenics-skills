@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A32B05132AB8871F00E3BCF8 /* calisthenicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B05122AB8871F00E3BCF8 /* calisthenicsApp.swift */; };
-		A32B05152AB8871F00E3BCF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B05142AB8871F00E3BCF8 /* ContentView.swift */; };
 		A32B05172AB8872300E3BCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32B05162AB8872300E3BCF8 /* Assets.xcassets */; };
 		A32B051A2AB8872300E3BCF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32B05192AB8872300E3BCF8 /* Preview Assets.xcassets */; };
+		A36793492AB9D57C00113514 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A36793482AB9D57B00113514 /* data.json */; };
+		A367934B2AB9DD1300113514 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367934A2AB9DD1300113514 /* Skill.swift */; };
+		A367934D2AB9DE4800113514 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367934C2AB9DE4800113514 /* ViewModel.swift */; };
+		A36793502ABAE02500113514 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367934F2ABAE02500113514 /* DataService.swift */; };
+		A36793522ABAE2B800113514 /* SkillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793512ABAE2B800113514 /* SkillListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A32B050F2AB8871F00E3BCF8 /* calisthenics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calisthenics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32B05122AB8871F00E3BCF8 /* calisthenicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calisthenicsApp.swift; sourceTree = "<group>"; };
-		A32B05142AB8871F00E3BCF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A32B05162AB8872300E3BCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32B05192AB8872300E3BCF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A36793482AB9D57B00113514 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A367934A2AB9DD1300113514 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		A367934C2AB9DE4800113514 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A367934F2ABAE02500113514 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A36793512ABAE2B800113514 /* SkillListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,14 @@
 			isa = PBXGroup;
 			children = (
 				A32B05122AB8871F00E3BCF8 /* calisthenicsApp.swift */,
-				A32B05142AB8871F00E3BCF8 /* ContentView.swift */,
+				A367934E2ABAE01000113514 /* Services */,
+				A32B05232AB887A100E3BCF8 /* Data */,
+				A32B05222AB8879600E3BCF8 /* Models */,
+				A32B05212AB8879000E3BCF8 /* ViewModels */,
+				A32B05202AB8877500E3BCF8 /* Views */,
 				A32B05162AB8872300E3BCF8 /* Assets.xcassets */,
 				A32B05182AB8872300E3BCF8 /* Preview Content */,
+				A36793482AB9D57B00113514 /* data.json */,
 			);
 			path = calisthenics;
 			sourceTree = "<group>";
@@ -65,6 +78,45 @@
 				A32B05192AB8872300E3BCF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A32B05202AB8877500E3BCF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A36793512ABAE2B800113514 /* SkillListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A32B05212AB8879000E3BCF8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A367934C2AB9DE4800113514 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A32B05222AB8879600E3BCF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A367934A2AB9DD1300113514 /* Skill.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A32B05232AB887A100E3BCF8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A367934E2ABAE01000113514 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A367934F2ABAE02500113514 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A32B051A2AB8872300E3BCF8 /* Preview Assets.xcassets in Resources */,
+				A36793492AB9D57C00113514 /* data.json in Resources */,
 				A32B05172AB8872300E3BCF8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32B05152AB8871F00E3BCF8 /* ContentView.swift in Sources */,
+				A367934B2AB9DD1300113514 /* Skill.swift in Sources */,
+				A36793522ABAE2B800113514 /* SkillListView.swift in Sources */,
+				A367934D2AB9DE4800113514 /* ViewModel.swift in Sources */,
 				A32B05132AB8871F00E3BCF8 /* calisthenicsApp.swift in Sources */,
+				A36793502ABAE02500113514 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

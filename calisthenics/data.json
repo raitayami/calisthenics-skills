@@ -1,0 +1,112 @@
+[
+{
+    "name": "Planche",
+    "image": "planche",
+    "difficulty": 9,
+    "requirements": [
+        "50 clean push ups in a row",
+        "10 clean pull ups",
+        "3 minute plank"
+    ],
+    "progression": [
+        "tuck",
+        "adv straddle tuck",
+        "adv tuck",
+        "straddle",
+        "half lay",
+        "full"
+    ],
+    "regressions":[
+        "ZT hip lifts",
+        "tuck to bent arm straddle",
+        "L sit to bent arm straddle",
+        "HSPU",
+        "pike push ups",
+        "negative [ current progression ] ",
+        "banded progressionh old",
+        "banded tuck to straddle",
+        "planche lean",
+        "pseudo push ups"
+    ],
+    "instructions":[
+        "Hold each progression for 15 seconds then onto the next progression",
+        "Scapular portracted and shoulders depressed",
+        "Arms always locked out, no bent arm"
+    ],
+    "method":[
+        "Train it 40 mins if 3 times a week",
+        "Train it 30 mins if 4 times a week",
+        "Train it 20 mins if 5 times a week"
+    ]
+},
+{
+    "name": "Front lever",
+    "image": "frontLever",
+    "difficulty": 7,
+    "requirements": [
+        "20 clean pull ups",
+        "3 minute plank",
+        "2 minute 6 inch hold"
+    ],
+    "progression": [
+        "tuck",
+        "adv tuck",
+        "one leg",
+        "one leg adv tuck",
+        "straddle",
+        "half lay",
+        "full"
+    ],
+    "regressions":[
+        "[progression] raises",
+        "tuck to adv tuck",
+        "L sit",
+        "L sit into [progression] hold",
+        "inverted deadlift",
+        "1 leg cycle",
+        " FL raises",
+        "1 leg negative hold"
+    ],
+    "instructions":[
+        "Hold each progression for 15 seconds then onto the next progression",
+        "Scapular retracted and chest out",
+        "Arms always locked out, no bent arm",
+        "Hips and leg all horizontal"
+    ],
+    "method":[
+        "Train it 40 mins if 3 times a week",
+        "Train it 30 mins if 4 times a week",
+        "Train it 20 mins if 5 times a week"
+    ]
+},
+{
+    "name": "Handstand",
+    "image": "handstand",
+    "difficulty": 5,
+    "requirements": [
+        "30 push ups",
+        "15 dips",
+        "3 minute plank",
+        "2 minute 6 inch hold"
+    ],
+    "progression": [
+        "wall holds (back facing)",
+        "wall holds (stomach facing)",
+        "alternative leg holds"
+    ],
+    "regressions":[
+        "pike push ups",
+        "declined pike push ups",
+        "declined push ups"
+    ],
+    "instructions":[
+        "Arms always locked out, no bent arm",
+        "Hips and leg all alligned"
+    ],
+    "method":[
+        "Train it 40 mins if 3 times a week",
+        "Train it 30 mins if 4 times a week",
+        "Train it 20 mins if 5 times a week"
+    ]
+}
+]
