@@ -15,6 +15,8 @@
 		A367934D2AB9DE4800113514 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367934C2AB9DE4800113514 /* ViewModel.swift */; };
 		A36793502ABAE02500113514 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A367934F2ABAE02500113514 /* DataService.swift */; };
 		A36793522ABAE2B800113514 /* SkillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793512ABAE2B800113514 /* SkillListView.swift */; };
+		A36793542ABAEE4F00113514 /* SkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793532ABAEE4F00113514 /* SkillDetailView.swift */; };
+		A36793562ABAFDFE00113514 /* SkillinDepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793552ABAFDFE00113514 /* SkillinDepthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		A367934C2AB9DE4800113514 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A367934F2ABAE02500113514 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A36793512ABAE2B800113514 /* SkillListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListView.swift; sourceTree = "<group>"; };
+		A36793532ABAEE4F00113514 /* SkillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailView.swift; sourceTree = "<group>"; };
+		A36793552ABAFDFE00113514 /* SkillinDepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillinDepthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				A36793512ABAE2B800113514 /* SkillListView.swift */,
+				A36793532ABAEE4F00113514 /* SkillDetailView.swift */,
+				A36793552ABAFDFE00113514 /* SkillinDepthView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,8 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A367934B2AB9DD1300113514 /* Skill.swift in Sources */,
+				A36793542ABAEE4F00113514 /* SkillDetailView.swift in Sources */,
 				A36793522ABAE2B800113514 /* SkillListView.swift in Sources */,
 				A367934D2AB9DE4800113514 /* ViewModel.swift in Sources */,
+				A36793562ABAFDFE00113514 /* SkillinDepthView.swift in Sources */,
 				A32B05132AB8871F00E3BCF8 /* calisthenicsApp.swift in Sources */,
 				A36793502ABAE02500113514 /* DataService.swift in Sources */,
 			);

@@ -7,14 +7,23 @@ struct SkillListView: View {
     @ObservedObject var model = ViewModel()
     
     var body: some View {
-        List(model.skills){ s in
-            
-            HStack{
-            
-                Text(s.name)
-                    .font(.title2)
+        NavigationView{
+            List(model.skills){ s in
+                NavigationLink {
+                    SkillDetailView(skill: s)
+                } label: {
+                    HStack{
+                    
+                        Text(s.name)
+                            .font(.title2)
+                    }
+                }
+
+                
+                
             }
-            
+            .navigationTitle("Calisthenic Skills")
+
         }
     }
 }
