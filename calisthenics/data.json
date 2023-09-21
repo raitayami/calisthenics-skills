@@ -108,5 +108,61 @@
         "Train it 30 mins if 4 times a week",
         "Train it 20 mins if 5 times a week"
     ]
+},
+{
+    "name": "Muscle up",
+    "image": "muscleUp",
+    "difficulty": 5,
+    "requirements": [
+        "15 pull ups",
+        "25 dips",
+        "3 minute plank",
+        "2 minute 6 inch hold"
+    ],
+    "progression": [
+        "explosive pulls",
+        "depth dips",
+        "high L sit pulls"
+    ],
+    "regressions":[
+        "banded explosive pulls",
+        "weighted pulls",
+        "muscle up negatives",
+        "pull overs"
+    ],
+    "instructions":[
+        "Arms always locked out at the bottom",
+    ],
+    "method":[
+        "Train it 40 mins if 3 times a week",
+        "Train it 30 mins if 4 times a week",
+        "Train it 20 mins if 5 times a week"
+    ]
+},
+{
+    "name": "Pull up",
+    "image": "pullUp",
+    "difficulty": 3,
+    "requirements": [
+        "N/A"
+    ],
+    "progression": [
+        "N/A"
+    ],
+    "regressions":[
+        "australlian pull ups",
+        "banded pull ups",
+        "negatives",
+        "dead hang"
+    ],
+    "instructions":[
+        "Arms always locked out at the hang, pull chin above bar",
+        "Body straight like a pencil"
+    ],
+    "method":[
+        "Train it 40 mins if 3 times a week",
+        "Train it 30 mins if 4 times a week",
+        "Train it 20 mins if 5 times a week"
+    ]
 }
 ]

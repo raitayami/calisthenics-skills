@@ -17,6 +17,7 @@
 		A36793522ABAE2B800113514 /* SkillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793512ABAE2B800113514 /* SkillListView.swift */; };
 		A36793542ABAEE4F00113514 /* SkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793532ABAEE4F00113514 /* SkillDetailView.swift */; };
 		A36793562ABAFDFE00113514 /* SkillinDepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793552ABAFDFE00113514 /* SkillinDepthView.swift */; };
+		A3E5D4802ABC56E300857926 /* SkillTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D47F2ABC56E300857926 /* SkillTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A36793512ABAE2B800113514 /* SkillListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListView.swift; sourceTree = "<group>"; };
 		A36793532ABAEE4F00113514 /* SkillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailView.swift; sourceTree = "<group>"; };
 		A36793552ABAFDFE00113514 /* SkillinDepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillinDepthView.swift; sourceTree = "<group>"; };
+		A3E5D47F2ABC56E300857926 /* SkillTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				A36793512ABAE2B800113514 /* SkillListView.swift */,
 				A36793532ABAEE4F00113514 /* SkillDetailView.swift */,
 				A36793552ABAFDFE00113514 /* SkillinDepthView.swift */,
+				A3E5D47F2ABC56E300857926 /* SkillTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				A367934D2AB9DE4800113514 /* ViewModel.swift in Sources */,
 				A36793562ABAFDFE00113514 /* SkillinDepthView.swift in Sources */,
 				A32B05132AB8871F00E3BCF8 /* calisthenicsApp.swift in Sources */,
+				A3E5D4802ABC56E300857926 /* SkillTabView.swift in Sources */,
 				A36793502ABAE02500113514 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

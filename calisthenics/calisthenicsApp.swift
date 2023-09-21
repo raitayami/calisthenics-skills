@@ -5,7 +5,7 @@ import SwiftUI
 struct calisthenicsApp: App {
     var body: some Scene {
         WindowGroup {
-            SkillListView()
+            SkillTabView()
         }
     }
 }
