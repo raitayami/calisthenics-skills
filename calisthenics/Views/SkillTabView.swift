@@ -6,7 +6,7 @@ struct SkillTabView: View {
         
         TabView{
             
-            Text("Featured View")
+            SkillFeaturedView()
                 .tabItem {
                     VStack{
                         Image(systemName: "star.fill")
@@ -22,6 +22,7 @@ struct SkillTabView: View {
                     }
                 }
         }
+        .environmentObject(ViewModel())
     }
 }
 

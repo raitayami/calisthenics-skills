@@ -4,7 +4,7 @@ import SwiftUI
 
 struct SkillListView: View {
     
-    @ObservedObject var model = ViewModel()
+    @EnvironmentObject var model:ViewModel
     
     var body: some View {
         NavigationView{
