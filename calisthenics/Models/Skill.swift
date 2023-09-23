@@ -6,6 +6,7 @@ class Skill: Decodable, Identifiable{
     
     var id: UUID?
     var name: String
+    var featured: Bool
     var image: String
     var difficulty: Int
     var requirements: [String]

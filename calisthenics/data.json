@@ -1,6 +1,7 @@
 [
 {
     "name": "Planche",
+    "featured": false,
     "image": "planche",
     "difficulty": 9,
     "requirements": [
@@ -41,6 +42,7 @@
 },
 {
     "name": "Front lever",
+    "featured": false,
     "image": "frontLever",
     "difficulty": 7,
     "requirements": [
@@ -81,6 +83,7 @@
 },
 {
     "name": "Handstand",
+    "featured": true,
     "image": "handstand",
     "difficulty": 5,
     "requirements": [
@@ -111,6 +114,7 @@
 },
 {
     "name": "Muscle up",
+    "featured": false,
     "image": "muscleUp",
     "difficulty": 5,
     "requirements": [
@@ -141,6 +145,7 @@
 },
 {
     "name": "Pull up",
+    "featured": true,
     "image": "pullUp",
     "difficulty": 3,
     "requirements": [

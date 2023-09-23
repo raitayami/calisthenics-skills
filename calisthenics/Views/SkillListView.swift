@@ -7,6 +7,7 @@ struct SkillListView: View {
     @EnvironmentObject var model:ViewModel
     
     var body: some View {
+        
         NavigationView{
             List(model.skills){ s in
                 NavigationLink {
