@@ -9,7 +9,7 @@ struct SkillFeaturedView: View {
         
         VStack(alignment: .leading){
             
-            Text("Featured Recipes")
+            Text("Featured Skills")
                 .bold()
                 .padding(.leading)
                 .padding(.top, 40)
@@ -49,6 +49,7 @@ struct SkillFeaturedView: View {
                 .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
                 
             }
+            .padding(.top, -20)
             
             HStack(spacing: 10){
                 Text("Difficulty:")
@@ -56,7 +57,8 @@ struct SkillFeaturedView: View {
                 Text(String(0))
                 
             }
-            .padding([.leading, .bottom], 10)
+            .padding(.bottom, 50)
+            .padding(.leading, 20)
 
         }
         
