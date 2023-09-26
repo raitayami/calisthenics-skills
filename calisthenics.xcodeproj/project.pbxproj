@@ -17,6 +17,7 @@
 		A36793522ABAE2B800113514 /* SkillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793512ABAE2B800113514 /* SkillListView.swift */; };
 		A36793542ABAEE4F00113514 /* SkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793532ABAEE4F00113514 /* SkillDetailView.swift */; };
 		A36793562ABAFDFE00113514 /* SkillinDepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36793552ABAFDFE00113514 /* SkillinDepthView.swift */; };
+		A3C5C54E2AC1961D007AB49A /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C5C54D2AC1961D007AB49A /* RandomView.swift */; };
 		A3E5D4802ABC56E300857926 /* SkillTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D47F2ABC56E300857926 /* SkillTabView.swift */; };
 		A3E5D4822ABDE0FD00857926 /* SkillFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E5D4812ABDE0FD00857926 /* SkillFeaturedView.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		A36793512ABAE2B800113514 /* SkillListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListView.swift; sourceTree = "<group>"; };
 		A36793532ABAEE4F00113514 /* SkillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetailView.swift; sourceTree = "<group>"; };
 		A36793552ABAFDFE00113514 /* SkillinDepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillinDepthView.swift; sourceTree = "<group>"; };
+		A3C5C54D2AC1961D007AB49A /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
 		A3E5D47F2ABC56E300857926 /* SkillTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTabView.swift; sourceTree = "<group>"; };
 		A3E5D4812ABDE0FD00857926 /* SkillFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				A32B05162AB8872300E3BCF8 /* Assets.xcassets */,
 				A32B05182AB8872300E3BCF8 /* Preview Content */,
 				A36793482AB9D57B00113514 /* data.json */,
+				A3C5C54D2AC1961D007AB49A /* RandomView.swift */,
 			);
 			path = calisthenics;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A367934B2AB9DD1300113514 /* Skill.swift in Sources */,
+				A3C5C54E2AC1961D007AB49A /* RandomView.swift in Sources */,
 				A36793542ABAEE4F00113514 /* SkillDetailView.swift in Sources */,
 				A36793522ABAE2B800113514 /* SkillListView.swift in Sources */,
 				A367934D2AB9DE4800113514 /* ViewModel.swift in Sources */,

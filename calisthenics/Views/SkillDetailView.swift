@@ -7,39 +7,78 @@ struct SkillDetailView: View {
     
     var body: some View {
         ScrollView{
-            Image(skill.image)
-                .resizable()
-                .scaledToFill()
-                .cornerRadius(15)
-                .padding()
-                .shadow(radius: 10)
             
-            
-            Text("Difficulty level: ")
-                .bold()
-                .padding([.top, .bottom], 5)
+            VStack(alignment: .leading){
+                Image(skill.image)
+                    .resizable()
+                    .scaledToFill()
+                    .cornerRadius(15)
+                    .shadow(radius: 10)
+                
+                VStack(alignment: .leading){
+                    
+                    Text(skill.name)
+                        .padding(.top)
+                        .font(.largeTitle)
 
-            
-            Text(String(skill.difficulty) + "/10")
-            
-            VStack{
-                
-                Text("Requirements: ")
-                    .bold()
-                    .padding([.top, .bottom], 5)
-                
-                ForEach(skill.requirements, id:\.self){s in
-                    Text(s)
+
+                    
+                    Text("Requirements: ")
+                        .bold()
+                        .padding([.top, .bottom], 5)
+
+                    
+                    ForEach(skill.requirements, id:\.self){s in
+                        Text("- " + s)
+                    }
+                    
+                    
+//                    NavigationLink {
+//
+//
+//                    } label: {
+//                        ZStack{
+//                            Rectangle()
+//                                .frame(height: 40)
+//                                .foregroundColor(.black)
+//                                .cornerRadius(15)
+//
+//                            Text("View Progressions")
+//                                .foregroundColor(.white)
+//                        }
+//                    }
+
+                    Text("Progressions: ")
+                        .bold()
+                        .padding([.top, .bottom], 5)
+
+                    
+                    ForEach(skill.progression, id:\.self){p in
+                        Text("- " + p)
+                    }
+                    
+                    Text("Instructions")
+                        .bold()
+                        .padding([.top, .bottom], 5)
+                    
+                    ForEach(skill.instructions, id:\.self){i in
+                        Text("- " + i)
+                    }
+                    
+                    Text("Method")
+                        .bold()
+                        .padding([.top, .bottom], 5)
+
+                    ForEach(skill.method, id:\.self){m in
+                        Text("- " + m)
+                    }
+                    
                 }
-                
-                
             }
-            
-            
-
-            
-            
-        }.navigationTitle(skill.name)
+            .padding()
+      
+        }
+//        .navigationTitle(skill.name)
     }
 }
 

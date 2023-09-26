@@ -4,6 +4,7 @@ import SwiftUI
 struct SkillFeaturedView: View {
     
     @EnvironmentObject var model:ViewModel
+    @State var isDetailViewShowing = false
 
     var body: some View {
         
@@ -22,21 +23,29 @@ struct SkillFeaturedView: View {
                         
                         if model.skills[index].featured == true {
                             
-                            ZStack{
-                                Rectangle()
-                                    .foregroundColor(.white)
-                                    
-                                VStack(spacing: 0){
-                                    Image(model.skills[index].image)
-                                        .resizable()
-                                        .aspectRatio(contentMode: .fill)
-                                        .clipped()
-                                    
-                                    Text(model.skills[index].name)
-                                        .padding(5)
-                                }
+                            Button {
+                                self.isDetailViewShowing = true
+                            } label: {
+                                ZStack{
+                                    Rectangle()
+                                        .foregroundColor(.white)
+                                        
+                                    VStack(spacing: 0){
+                                        Image(model.skills[index].image)
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fill)
+                                            .clipped()
+                                        
+                                        Text(model.skills[index].name)
+                                            .padding(5)
+                                    }
 
+                                }
                             }
+                            .sheet(isPresented: $isDetailViewShowing){
+                                SkillDetailView(skill: model.skills[index])
+                            }
+                            .buttonStyle(.plain)
                             .frame(width: geo.size.width - 40,
                                     height: geo.size.height - 100, alignment: .center)
                              .cornerRadius(15)
